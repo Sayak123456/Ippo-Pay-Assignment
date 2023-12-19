@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear
+{
+    display: none;
+}
+
+.body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, #cc2473, #d828c9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 500px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.heading{
+  margin: 25px;
+}
+
+.input-with-icon-div{
+  display: flex;
+}
+
+.custom-input{
+  width: 95%;
+  border: none;
+  outline: none;
+}
+
+.icon-span{
+  cursor: pointer;
+}
+
+.tracker-box{
+  background-color: #000000;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.09em;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.tracker-box div{
+  margin: 5px 0;
+}
+
+.tracker-box .validated{
+  color: rgb(0, 250, 0);
+}
+
+.list-icon{
+  margin-right: 8px;
+}
+
+.list-icon.green{
+  color: rgb(0, 250, 0);
+}
+
+.save-button{
+  background-color: #000000;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.09em;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
